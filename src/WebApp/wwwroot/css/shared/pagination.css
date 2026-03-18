@@ -1,0 +1,5 @@
+/* Pagination styles */
+.pagination .page-link {
+    border-radius: var(--border-radius);
+    margin: 0 2px;
+}

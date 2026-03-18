@@ -1,0 +1,6 @@
+/* Auth - Register styles */
+.register-card {
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: var(--border-radius);
+}
