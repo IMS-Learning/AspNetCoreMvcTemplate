@@ -1,0 +1,427 @@
+/* =====================================================
+   Bootstrap Color Overrides
+   Applies custom root CSS variables to all Bootstrap components
+   Uses CSS variables defined in site.css for consistency
+   ===================================================== */
+
+/* =====================================================
+   BUTTON OVERRIDES
+   ===================================================== */
+
+/* Primary buttons */
+.btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--bs-primary-hover);
+    border-color: var(--bs-primary-hover);
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    background-color: var(--bs-primary-hover);
+    border-color: var(--bs-primary-hover);
+    box-shadow: 0 0 0 0.25rem rgba(0, 86, 149, 0.5);
+}
+
+.btn-primary:active,
+.btn-primary.active {
+    background-color: var(--bs-primary-active);
+    border-color: var(--bs-primary-active);
+}
+
+/* Secondary buttons */
+.btn-secondary {
+    background-color: var(--bs-secondary) !important;
+    border-color: var(--bs-secondary) !important;
+    color: #000 !important;
+}
+
+.btn-secondary:hover {
+    background-color: var(--bs-secondary-hover) !important;
+    border-color: var(--bs-secondary-hover) !important;
+    color: #000 !important;
+}
+
+.btn-secondary:focus,
+.btn-secondary.focus {
+    background-color: var(--bs-secondary-hover) !important;
+    border-color: var(--bs-secondary-hover) !important;
+    box-shadow: 0 0 0 0.25rem rgba(242, 169, 0, 0.5) !important;
+    color: #000 !important;
+}
+
+.btn-secondary:active,
+.btn-secondary.active {
+    background-color: var(--bs-secondary-active) !important;
+    border-color: var(--bs-secondary-active) !important;
+    color: #000 !important;
+}
+
+/* Warning buttons */
+.btn-warning {
+    background-color: var(--bs-warning) !important;
+    border-color: var(--bs-warning) !important;
+    color: #000 !important;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800 !important;
+    border-color: #e0a800 !important;
+    color: #000 !important;
+}
+
+.btn-warning:focus,
+.btn-warning.focus {
+    background-color: #e0a800 !important;
+    border-color: #e0a800 !important;
+    box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.5) !important;
+    color: #000 !important;
+}
+
+.btn-warning:active,
+.btn-warning.active {
+    background-color: #d39e00 !important;
+    border-color: #d39e00 !important;
+    color: #000 !important;
+}
+
+/* Info buttons */
+.btn-info {
+    background-color: var(--bs-info) !important;
+    border-color: var(--bs-info) !important;
+    color: #fff !important;
+}
+
+.btn-info:hover {
+    background-color: #158cba !important;
+    border-color: #158cba !important;
+    color: #fff !important;
+}
+
+.btn-info:focus,
+.btn-info.focus {
+    background-color: #158cba !important;
+    border-color: #158cba !important;
+    box-shadow: 0 0 0 0.25rem rgba(23, 162, 184, 0.5) !important;
+    color: #fff !important;
+}
+
+.btn-info:active,
+.btn-info.active {
+    background-color: #138496 !important;
+    border-color: #138496 !important;
+    color: #fff !important;
+}
+
+/* Outline primary buttons */
+.btn-outline-primary {
+    color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+    box-shadow: 0 0 0 0.25rem rgba(0, 86, 149, 0.5) !important;
+}
+
+/* Outline secondary buttons */
+.btn-outline-secondary {
+    color: var(--bs-secondary) !important;
+    border-color: var(--bs-secondary) !important;
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--bs-secondary) !important;
+    border-color: var(--bs-secondary) !important;
+    color: #000 !important;
+}
+
+.btn-outline-secondary:focus,
+.btn-outline-secondary.focus {
+    box-shadow: 0 0 0 0.25rem rgba(242, 169, 0, 0.5) !important;
+}
+
+/* Outline info buttons */
+.btn-outline-info {
+    color: var(--bs-info) !important;
+    border-color: var(--bs-info) !important;
+}
+
+.btn-outline-info:hover {
+    background-color: var(--bs-info) !important;
+    border-color: var(--bs-info) !important;
+}
+
+.btn-outline-info:focus,
+.btn-outline-info.focus {
+    box-shadow: 0 0 0 0.25rem rgba(23, 162, 184, 0.5) !important;
+}
+
+/* Outline warning buttons */
+.btn-outline-warning {
+    color: var(--bs-warning) !important;
+    border-color: var(--bs-warning) !important;
+}
+
+.btn-outline-warning:hover {
+    background-color: var(--bs-warning) !important;
+    border-color: var(--bs-warning) !important;
+    color: #000 !important;
+}
+
+.btn-outline-warning:focus,
+.btn-outline-warning.focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.5) !important;
+}
+
+/* =====================================================
+   LINK OVERRIDES
+   ===================================================== */
+
+a {
+    color: var(--bs-primary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--bs-primary-hover);
+    text-decoration: underline;
+}
+
+/* =====================================================
+   TEXT COLOR UTILITIES
+   ===================================================== */
+
+.text-primary {
+    color: var(--bs-primary) !important;
+}
+
+.text-secondary {
+    color: var(--bs-secondary) !important;
+}
+
+.text-info {
+    color: var(--bs-info) !important;
+}
+
+.text-warning {
+    color: var(--bs-warning) !important;
+}
+
+.text-success {
+    color: var(--bs-success) !important;
+}
+
+.text-danger {
+    color: var(--bs-danger) !important;
+}
+
+/* =====================================================
+   NAVBAR OVERRIDES
+   ===================================================== */
+
+.navbar-dark {
+    background-color: var(--bs-primary);
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+}
+
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-brand:focus {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 0.25rem;
+}
+
+/* =====================================================
+   BADGE OVERRIDES
+   ===================================================== */
+
+.badge.bg-primary {
+    background-color: var(--bs-primary) !important;
+    color: #fff !important;
+}
+
+.badge.bg-secondary {
+    background-color: var(--bs-secondary) !important;
+    color: #000 !important;
+}
+
+.badge.bg-info {
+    background-color: var(--bs-info) !important;
+    color: #fff !important;
+}
+
+.badge.bg-warning {
+    background-color: var(--bs-warning) !important;
+    color: #000 !important;
+}
+
+.badge.bg-success {
+    background-color: var(--bs-success) !important;
+    color: #fff !important;
+}
+
+.badge.bg-danger {
+    background-color: var(--bs-danger) !important;
+    color: #fff !important;
+}
+
+/* =====================================================
+   BACKGROUND COLOR UTILITIES
+   ===================================================== */
+
+.bg-primary {
+    background-color: var(--bs-primary) !important;
+}
+
+.bg-secondary {
+    background-color: var(--bs-secondary) !important;
+}
+
+.bg-info {
+    background-color: var(--bs-info) !important;
+}
+
+.bg-warning {
+    background-color: var(--bs-warning) !important;
+}
+
+.bg-success {
+    background-color: var(--bs-success) !important;
+}
+
+.bg-danger {
+    background-color: var(--bs-danger) !important;
+}
+
+/* =====================================================
+   ALERT OVERRIDES
+   ===================================================== */
+
+.alert-primary {
+    background-color: var(--bs-primary-light) !important;
+    border-color: #b3d9ff !important;
+    color: var(--bs-primary-dark) !important;
+}
+
+.alert-primary hr {
+    border-top-color: #b3d9ff !important;
+}
+
+/* =====================================================
+   FORM ELEMENT OVERRIDES
+   ===================================================== */
+
+.form-control:focus {
+    border-color: var(--bs-primary) !important;
+    box-shadow: 0 0 0 0.25rem var(--bs-primary-light) !important;
+}
+
+.form-select:focus {
+    border-color: var(--bs-primary) !important;
+    box-shadow: 0 0 0 0.25rem var(--bs-primary-light) !important;
+}
+
+.form-check-input:checked {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+}
+
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.25rem var(--bs-primary-light) !important;
+}
+
+/* =====================================================
+   PAGINATION OVERRIDES
+   ===================================================== */
+
+.page-link {
+    color: var(--bs-primary) !important;
+}
+
+.page-link:hover {
+    background-color: var(--bs-primary-light) !important;
+    color: var(--bs-primary-active) !important;
+}
+
+.page-item.active .page-link {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+}
+
+/* =====================================================
+   CARD OVERRIDES
+   ===================================================== */
+
+.card {
+    border-radius: 0.5rem !important; 
+    padding: 1.25rem 1.5rem !important;
+    line-height: 1.5 !important;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1) !important;
+    background-color: var(--bs-body-bg) !important;
+    border-color: var(--bs-primary-light) !important;
+}
+
+.card-header {
+    background-color: var(--bs-primary-light) !important;
+    border-color: var(--bs-primary-light) !important;
+}
+
+/* =====================================================
+   PROGRESS OVERRIDES
+   ===================================================== */
+
+.progress-bar {
+    background-color: var(--bs-primary) !important;
+}
+
+/* =====================================================
+   DROPDOWN OVERRIDES
+   ===================================================== */
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: var(--bs-primary) !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: var(--bs-primary-light) !important;
+}
+
+/* =====================================================
+   TOOLTIP & POPOVERS
+   ===================================================== */
+
+.tooltip-inner {
+    background-color: var(--bs-primary) !important;
+}
+
+.popover-header {
+    background-color: var(--bs-primary) !important;
+    color: #fff !important;
+}

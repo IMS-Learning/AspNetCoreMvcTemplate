@@ -1,0 +1,56 @@
+/* Shared header styles */
+header {
+    background: var(--bs-primary);
+    color: #fff;
+    padding: 1rem;
+}
+
+header a,
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header a {
+    margin-right: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    background: var(--bs-primary);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+}
+
+.navbar .nav-link {
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 4px 8px;
+    outline-offset: 2px;
+    color: #fff;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    padding: 4px 0;
+    flex-shrink: 0;
+}
+
+.navbar-brand .brand-image {
+    height: 4.5rem;
+    width: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.accent-bar {
+    height: 4px;
+    background-color: var(--bs-secondary);
+}

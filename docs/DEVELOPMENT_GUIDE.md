@@ -18,7 +18,7 @@ cd AspNetCoreMvcTemplate
 dotnet restore
 
 # Run the application
-dotnet run --project src/WebApp/WebApp.csproj
+dotnet run --project src/AspNetCoreMvcTemplate.Web/AspNetCoreMvcTemplate.Web.csproj
 ```
 
 The application will be available at `https://localhost:7xxx` or `http://localhost:5xxx`.
@@ -39,14 +39,14 @@ Copy `appsettings.Development.json` to configure development settings. Never com
     "JwtSecret": "your-secret-key-here"
   },
   "Database": {
-    "ConnectionString": "Server=localhost;Database=WebApp;"
+    "ConnectionString": "Server=localhost;Database=AspNetCoreMvcTemplate;"
   },
   "Smtp": {
     "Host": "smtp.example.com",
     "Username": "user@example.com",
     "Password": "your-smtp-password",
     "FromAddress": "no-reply@example.com",
-    "FromName": "WebApp"
+    "FromName": "AspNetCoreMvcTemplate"
   }
 }
 ```

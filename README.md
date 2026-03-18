@@ -16,7 +16,7 @@ This template implements a **layered, feature-organized architecture** with:
 
 ```bash
 dotnet restore
-dotnet run --project src/WebApp/WebApp.csproj
+dotnet run --project src/AspNetCoreMvcTemplate.Web/AspNetCoreMvcTemplate.Web.csproj
 ```
 
 ## Documentation

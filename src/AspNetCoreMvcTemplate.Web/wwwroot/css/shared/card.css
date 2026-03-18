@@ -1,0 +1,49 @@
+/* Reusable card component for content sections */
+.card-wrapper {
+    border-left: 4px solid var(--bs-primary);
+    border-radius: 0.5rem;
+    padding: 1.25rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--bs-text);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--bs-body-bg);
+}
+
+.card-wrapper-no-border {
+    border-radius: 0.5rem;
+    padding: 1.25rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--bs-text);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--bs-body-bg);
+}
+
+.card-wrapper h1 {
+    margin-bottom: 2rem;
+    color: var(--bs-primary);
+    font-weight: 600;
+}
+
+.card-wrapper h2 {
+    border-left: 4px solid var(--bs-secondary);
+    padding-left: 0.75rem;
+    margin-bottom: 1.5rem;
+    color: var(--bs-primary);
+    font-weight: 600;
+}
+
+.card-wrapper-no-border h1 {
+    margin-bottom: 2rem;
+    color: var(--bs-primary);
+    font-weight: 600;
+}
+
+.card-wrapper-no-border h2 {
+    border-left: 4px solid var(--bs-secondary);
+    padding-left: 0.75rem;
+    margin-bottom: 1.5rem;
+    color: var(--bs-primary);
+    font-weight: 600;
+}

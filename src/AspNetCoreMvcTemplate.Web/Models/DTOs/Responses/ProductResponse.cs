@@ -1,0 +1,12 @@
+namespace AspNetCoreMvcTemplate.Web.Models.DTOs.Responses;
+
+public class ProductResponse
+{
+    public int Id { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public string Description { get; set; } = string.Empty;
+    public decimal Price { get; set; }
+    public int StockLevel { get; set; }
+    public string Category { get; set; } = string.Empty;
+    public bool IsActive { get; set; }
+}
