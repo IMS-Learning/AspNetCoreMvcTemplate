@@ -1,0 +1,6 @@
+/* Product detail styles */
+.product-detail-image {
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+}

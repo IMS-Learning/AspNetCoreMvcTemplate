@@ -1,0 +1,6 @@
+/* Auth - Login styles */
+.login-card {
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: var(--border-radius);
+}
