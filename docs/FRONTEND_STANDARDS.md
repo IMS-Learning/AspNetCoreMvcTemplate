@@ -39,6 +39,14 @@ wwwroot/css/
     └── detail.css
 ```
 
+## HTML Standards
+
+- **Always use semantic HTML** (`<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<footer>`, `<button>`, etc.)
+- **Always use Bootstrap** for styling and responsive design
+- Use Bootstrap utility classes for spacing, alignment, and layout
+- Ensure proper heading hierarchy (h1 > h2 > h3, etc.)
+- Use ARIA attributes when semantic HTML alone is insufficient for accessibility
+
 ## Best Practices
 
 - Use ES modules (`import`/`export`)
@@ -46,3 +54,5 @@ wwwroot/css/
 - Place reusable code in `shared/`
 - Avoid global state
 - Validate on both client and server
+- Use Bootstrap components for consistent UI (modals, forms, alerts, etc.)
+- Write semantic, accessible HTML for better SEO and user experience

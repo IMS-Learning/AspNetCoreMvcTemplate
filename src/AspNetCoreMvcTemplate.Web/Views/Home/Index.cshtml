@@ -1,8 +1,100 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="card-wrapper text-center">
-    <h1>Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!-- Hero Section -->
+<section class="card-wrapper-no-border text-center mt-5 mb-5" aria-label="Welcome">
+    <h1 class="mb-2">ASP.NET Core MVC Template</h1>
+    <div class="accent-bar" aria-hidden="true"></div>
+    <p class="lead text-muted mb-0">A modern, production-ready boilerplate for building scalable web applications</p>
+
+    <!-- Features Section -->
+    <section class="mt-5 mb-5" aria-label="Template features">
+        <div class="row g-4">
+            <article class="col-md-6 col-lg-3">
+                <div class="card-wrapper-no-border h-100 index-feature-card">
+                    <div class="mb-3 fs-1" aria-hidden="true">🏗️</div>
+                    <h3 class="mb-3">Clean Architecture</h3>
+                    <p class="small text-muted mb-0">Well-organized project structure with separation of concerns for maintainability and scalability.</p>
+                </div>
+            </article>
+            <article class="col-md-6 col-lg-3">
+                <div class="card-wrapper-no-border h-100 index-feature-card">
+                    <div class="mb-3 fs-1" aria-hidden="true">🔒</div>
+                    <h3 class="mb-3">Security Built-In</h3>
+                    <p class="small text-muted mb-0">Includes authentication filters, CSRF protection, and security headers middleware out of the box.</p>
+                </div>
+            </article>
+            <article class="col-md-6 col-lg-3">
+                <div class="card-wrapper-no-border h-100 index-feature-card">
+                    <div class="mb-3 fs-1" aria-hidden="true">📊</div>
+                    <h3 class="mb-3">Logging & Monitoring</h3>
+                    <p class="small text-muted mb-0">Comprehensive logging infrastructure with performance monitoring and error handling middleware.</p>
+                </div>
+            </article>
+            <article class="col-md-6 col-lg-3">
+                <div class="card-wrapper-no-border h-100 index-feature-card">
+                    <div class="mb-3 fs-1" aria-hidden="true">⚡</div>
+                    <h3 class="mb-3">Performance Ready</h3>
+                    <p class="small text-muted mb-0">Optimized with caching, dependency injection, and middleware for fast, responsive applications.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+</section>
+
+<!-- Getting Started Section -->
+<section class="mb-5" aria-label="Getting started guide">
+    <div class="row g-4">
+        <article class="col-lg-6">
+            <div class="card-wrapper h-100">
+                <h3 class="mb-3">📚 Documentation</h3>
+                <p class="text-muted mb-3">Start with our comprehensive guides to understand the architecture and standards.</p>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="~/Home/Privacy" class="text-primary text-decoration-none">→ Architecture Overview</a></li>
+                    <li class="mb-2"><a href="~/Home/Privacy" class="text-primary text-decoration-none">→ Backend Standards</a></li>
+                    <li class="mb-2"><a href="~/Home/Privacy" class="text-primary text-decoration-none">→ Development Guide</a></li>
+                </ul>
+            </div>
+        </article>
+        <article class="col-lg-6">
+            <div class="card-wrapper h-100">
+                <h3 class="mb-3">🚀 Quick Setup</h3>
+                <p class="text-muted mb-3">Get up and running in minutes with our streamlined setup process.</p>
+                <ol class="ps-3 small">
+                    <li class="mb-2">Clone or fork this repository</li>
+                    <li class="mb-2">Update <code>appsettings.json</code> with your configuration</li>
+                    <li class="mb-2">Run <code>dotnet restore</code> and <code>dotnet build</code></li>
+                    <li>Start developing with a solid foundation!</li>
+                </ol>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- Key Features List -->
+<section class="card-wrapper-no-border mb-5" aria-label="Included features">
+    <h2 class="mb-4">What's Included</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <ul class="list-unstyled">
+                <li class="pb-2 mb-2 border-bottom"><strong>Dependency Injection:</strong> <span class="text-muted">Pre-configured DI container</span></li>
+                <li class="pb-2 mb-2 border-bottom"><strong>Service Layer:</strong> <span class="text-muted">Business logic separated from controllers</span></li>
+                <li class="pb-2 mb-2 border-bottom"><strong>DTOs & Mappers:</strong> <span class="text-muted">Type-safe data transfer objects with auto-mapping</span></li>
+                <li class="pb-2 mb-2 border-bottom"><strong>Custom Attributes:</strong> <span class="text-muted">Validation and authorization decorators</span></li>
+                <li class="pb-2"><strong>Global Exception Handling:</strong> <span class="text-muted">Centralized error management</span></li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <ul class="list-unstyled">
+                <li class="pb-2 mb-2 border-bottom"><strong>Middleware Pipeline:</strong> <span class="text-muted">Logging, security, and performance monitoring</span></li>
+                <li class="pb-2 mb-2 border-bottom"><strong>External Integrations:</strong> <span class="text-muted">Payment gateway and API client patterns</span></li>
+                <li class="pb-2 mb-2 border-bottom"><strong>Standards & Guidelines:</strong> <span class="text-muted">Complete documentation and best practices</span></li>
+                <li class="pb-2 mb-2 border-bottom"><strong>Helper Utilities:</strong> <span class="text-muted">Extensions, validators, and crypto utilities</span></li>
+                <li class="pb-2"><strong>Development Ready:</strong> <span class="text-muted">Configuration for multiple environments</span></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<link rel="stylesheet" href="~/css/home/index.css" asp-append-version="true"/>

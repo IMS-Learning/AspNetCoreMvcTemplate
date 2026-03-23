@@ -21,13 +21,19 @@
 }
 
 .card-wrapper h1 {
-    margin-bottom: 2rem;
     color: var(--bs-primary);
     font-weight: 600;
 }
 
 .card-wrapper h2 {
     border-left: 4px solid var(--bs-secondary);
+    padding-left: 0.75rem;
+    margin-bottom: 1.5rem;
+    color: var(--bs-primary);
+    font-weight: 600;
+}
+
+.card-wrapper h3 {
     padding-left: 0.75rem;
     margin-bottom: 1.5rem;
     color: var(--bs-primary);
@@ -46,4 +52,27 @@
     margin-bottom: 1.5rem;
     color: var(--bs-primary);
     font-weight: 600;
+}
+
+.card-wrapper-no-border h3 {
+    padding-left: 0.75rem;
+    margin-bottom: 1.5rem;
+    color: var(--bs-primary);
+    font-weight: 600;
+}
+
+.card-wrapper .accent-bar {
+    width: 80px;
+    height: 4px;
+    background-color: var(--bs-secondary);
+    margin: 0.75rem auto 2.2rem auto;
+    border-radius: var(--border-radius);
+}
+
+.card-wrapper-no-border .accent-bar {
+    width: 80px;
+    height: 4px;
+    background-color: var(--bs-secondary);
+    margin: 0.75rem auto 2.2rem auto;
+    border-radius: var(--border-radius);
 }
